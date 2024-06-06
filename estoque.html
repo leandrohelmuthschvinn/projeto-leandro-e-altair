@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Estoque</title>
+    <style>
+        
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+thead {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+    
+
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Número do Produto</th>
+                <th>Nome do Produto</th>
+                <th>Quantidade</th>
+                <th>Fornecedor</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                <td>001</td>
+                <td>Caneta Azul</td>
+                <td>700</td>
+                <td>Bic</td>
+                
+            </tr>
+            
+        </tbody>
+    </table>
+    <button onclick="window.location.href = 'pagina_cadastro.html'">Cadastrar</button>
+    <script src="scripts.js"></script>
+</body>
+</html>
